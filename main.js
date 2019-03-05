@@ -1,16 +1,10 @@
 "use strict";
-// так пишется комментарий
-alert('Hello, world');
-console.log('Hello, console'); //коммент
-/* вот
-так
-комментим
-в нескольких строках
- */
-var messageText;
-var count2 = 2; //можно тут значение влепить
-var message1='fff', label, message3='ddd'; //можно всё разом писать
 
-messageText = 'текст сообщения';
-count2=2; //можно значение влепить и тут
+var num1, num2, result;
 
+num1 = +prompt('введите 1ое число', 0);
+num2 = +prompt('введите 2е число', 0);
+
+result = num1 + num2;
+
+alert('результат сложения: ' + result);
