@@ -18,3 +18,4 @@ foreach ($arr as $en=>$ru) {
     echo ($en.'<br>');
     echo ($ru.'<br>');
 }
+
