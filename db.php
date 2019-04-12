@@ -4,7 +4,7 @@ $db = new PDO('mysql:host=localhost;dbname=test', 'oleg', 'oleg', [
     PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"
 ]);
 
-$sql ='SELECT id, first_name, last_name, email 
+$sql  ='SELECT id, first_name, last_name, email 
         FROM users 
         WHERE email = :email 
         ORDER BY last_name ';
